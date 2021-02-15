@@ -1,0 +1,6 @@
+:Base agtVPulse.HLP
+1 agtVPulse
+2 Agilent Arb Pulse Maker=Agilent_FIR_digital_filter
+2 Pulse Parameters=csCstFIRFilterType
+2 Pulse Shape=csCstFIRFilterParameters
+2 View Pulse=csCstFIRFilterFrequencyResponse

@@ -1,0 +1,24 @@
+[Bootstrap]
+SetupTitle=Install
+SetupText=Copying Files, please stand by.
+CabFile=agtFirFilter.CAB
+Spawn=Setup1.exe
+Uninstal=st6unst.exe
+TmpDir=msftqws.pdw
+Cabs=1
+
+[Bootstrap Files]
+File1=@VB6STKIT.DLL,$(WinSysPathSysFile),,,3/26/99 12:00:00 AM,101888,6.0.84.50
+
+[Setup]
+Title=Agilent Waveform Editor FIR filter Add-In
+DefaultDir=$(ProgramFiles)\Agilent\IntuiLink\Waveform Generator\Tools
+AppExe=agtFirFilter.dll
+AppToUninstall=agtFirFilter.dll
+
+[Setup1 Files]
+File1=@agtFirFilter.CNT,$(AppPath),,,9/19/01 12:24:10 PM,597,0.0.0.0
+File2=@AGTFIRFILTER.HLP,$(AppPath),,$(Shared),9/19/01 12:49:24 PM,16674,0.0.0.0
+File3=@MSCHRT20.OCX,$(WinSysPath),$(DLLSelfRegister),$(Shared),5/21/00 11:00:00 PM,1009336,6.0.88.4
+File4=@agtFirFilter.dll,$(AppPath),$(DLLSelfRegister),,2/24/02 10:31:46 AM,225280,1.0.0.0
+

@@ -1,2 +1,3 @@
 # Agilent-Automation
-Waveforms Generator
+**Waveforms Generator**
+
